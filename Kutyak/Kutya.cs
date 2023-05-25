@@ -14,7 +14,7 @@ namespace Kutyak
         {
             string[] adatok = initAdatok.Split(';');
             this.kutyaId = int.Parse(adatok[0]) - 1;
-            this.fajtaId = int.Parse(adatok[1])  -1;
+            this.fajtaId = int.Parse(adatok[1]) - 1;
             this.nevId = int.Parse(adatok[2]) - 1;
             this.eletkor = int.Parse(adatok[3]);
             this.utolsoEllenorzes = adatok[4];
